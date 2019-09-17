@@ -1,0 +1,31 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(397,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  802_22.c
+  DCD.c
+  DSFrame.c
+  DSMAP.c
+  DSx.c
+  FCH.c
+  Fragmentation.c
+  Incumbent.c
+  OFDMA.c
+  PacketForward.c
+  PropagationModel.c
+  SCH.c
+  SpectrumManager.c
+D:\PUE_Attack_Workspace\src\Simulation\CognitiveRadio\SpectrumManager.c(309): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\PUE_Attack_Workspace\src\Simulation\CognitiveRadio\SpectrumManager.c(314): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  UCD.c
+  USFrame.c
+  USMAP.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1226,5): warning MSB8012: TargetPath(D:\PUE_Attack_Workspace\src\Simulation\CognitiveRadio\..\..\..\bin\bin_x86\CognitiveRadio.dll) does not match the Linker's OutputFile property value (D:\PUE_Attack_Workspace\bin\bin_x86\libCognitiveRadio.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1228,5): warning MSB8012: TargetName(CognitiveRadio) does not match the Linker's OutputFile property value (libCognitiveRadio). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+802_22.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  CognitiveRadio.lib(802_22_lib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+802_22.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\..\..\bin\bin_x86\CognitiveRadio.lib and object ..\..\..\bin\bin_x86\CognitiveRadio.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+CognitiveRadio.lib(802_22_lib.obj) : warning LNK4099: PDB 'CognitiveRadioLib.pdb' was not found with 'CognitiveRadio.lib(802_22_lib.obj)' or at 'D:\PUE_Attack_Workspace\bin\bin_x86\CognitiveRadioLib.pdb'; linking object as if no debug info
+  CognitiveRadio.vcxproj -> D:\PUE_Attack_Workspace\src\Simulation\CognitiveRadio\..\..\..\bin\bin_x86\CognitiveRadio.dll
